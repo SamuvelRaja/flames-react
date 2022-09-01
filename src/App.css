@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+body{
+  background-color: #e27489;
+}
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width:600px;
+  height: 80vh;
+  border-radius: 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  position: relative;
+  top:8vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading{
+  color:#da1825;
+  font-family: Poppins,  'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 28px;
+  margin-left: 60px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img-div{
+ width: 100%;
+ 
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
+.img-div>img{
+  width: 50%;
+   
+  
+}
+.input{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.form-div{
+  width: 80%;
+    margin: 40px auto;
+}
+form{
   display: flex;
   flex-direction: column;
+}
+.input-div{
+  width:100%;
+  border-top: 1px solid #cacaca;
+  border-bottom: 1px solid #cacaca;
+  height: 75px;
+  display: flex;
   align-items: center;
+}
+.input-div>label{
+  color: #da1825;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: poppins;
+  width: 200px;
+}
+.input-div>input, .input-div>input:focus-visible{
+  border: 0px #fff;
+  background-color: #cacaca45;
+  width: 300px;
+  height: 40px;
+  outline: none!important;
+  font-size: 18px;
+}
+.btn-div{
+  display: flex;
+  margin-top: 20px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.btn-div>button{
+    width: 162px;
+    height: 45px;
+    border: 0px;
+    background-color: #603a4c;
+    border-radius: 24px;
+    color: #e27489;
+    font-size: 16PX;
+    font-weight: 400;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.result
+{
+  color: #e27489;
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 400;
 }
